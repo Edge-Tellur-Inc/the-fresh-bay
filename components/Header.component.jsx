@@ -49,7 +49,7 @@ function Header({ active }) {
 				</div>
 				<div
 					data-aos='fade-down'
-					className={`w-full z-50  h-64 ${
+					className={`w-full z-50 h-44 ${
 						menuOpen ? 'block' : 'hidden'
 					} menubar bg-[#00977C] text-white shadow absolute left-0 top-[5rem] pt-6`}
 				>
