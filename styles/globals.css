@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* fonts declaration */
+
+@font-face {
+	font-family: 'RalewaySemiBold';
+	src: url('../assets/fonts/Raleway/static/Raleway-SemiBold.ttf')
+		format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RalewayMedium';
+	src: url('../assets/fonts/Raleway/static/Raleway-Medium.ttf')
+		format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'InterRegular';
+	src: url('../assets/fonts/Inter/static/Inter-Regular.ttf')
+		format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'InterMedium';
+	src: url('../assets/fonts/Inter/static/Inter-Medium.ttf')
+		format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'InterLight';
+	src: url('../assets/fonts/Inter/static/Inter-Light.ttf')
+		format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+.RalewaySemiBold {
+	font-family: 'RalewaySemiBold';
+	font-weight: 400;
+	font-style: normal;
+}
+
+.RalewayMedium {
+	font-family: 'RalewayMedium';
+	font-weight: 400;
+	font-style: normal;
+}
+
+.InterMedium {
+	font-family: 'InterMedium';
+	font-weight: 200;
+	font-style: normal;
+}
+
+.InterLight {
+	font-family: 'InterLight';
+	font-weight: 200;
+	font-style: normal;
+}
+
+.InterRegular {
+	font-family: 'InterRegular';
+	font-weight: 200;
+	font-style: normal;
+}
+
+
+
+
+
+/* default styles */
+body {
+	font-family: 'InterRegular';
+	font-weight: 200;
+	font-style: normal;
+}
