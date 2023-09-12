@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import { Header } from '../components';
-import { useRouter } from 'next/router';
+import Image from 'next/image'
+import { Header } from '../components'
+import { useRouter } from 'next/router'
 
 function HomePage() {
-	const Router = useRouter();
+	const Router = useRouter()
 
 	return (
 		<div className='w-full h-full bg-[#FAFFF4] max-w-[2020px] mx-auto'>
@@ -21,7 +21,8 @@ function HomePage() {
 					</p>
 					<button
 						onClick={() =>
-							Router.push('https://6qnu0zx477s.typeform.com/c/yqmp7o0D')
+							// Router.push('https://6qnu0zx477s.typeform.com/c/yqmp7o0D')
+							console.log('clicked')
 						}
 						className='px-16 mt-10 py-5 bg-[#009773] text-xl rounded-xl text-white InterMedium tracking-widest'
 					>
@@ -47,8 +48,8 @@ function HomePage() {
 								</h3>
 							</div>
 							<p className='pt-2 InterLight text-white w-full lg:w-9/12 text-lg'>
-								Find varieties of fresh groceries and shop from the comfort of
-								your home or office with our easy to use app.{' '}
+								Find varieties of fresh groceries and shop from the comfort of your home or office
+								with our easy to use app.{' '}
 							</p>
 							<hr className='w-full lg:w-10/12 mt-5 border-[#1C1A1A]/25' />
 						</div>
@@ -60,8 +61,8 @@ function HomePage() {
 								</h3>
 							</div>
 							<p className='pt-2 InterLight text-white w-full lg:w-9/12 text-lg'>
-								Checkout and request delivery. We will deliver your groceries to
-								your doorstep within 24 hours.{' '}
+								Checkout and request delivery. We will deliver your groceries to your doorstep
+								within 24 hours.{' '}
 							</p>
 							<hr className='w-full lg:w-10/12 mt-5 border-[#1C1A1A]/25' />
 						</div>
@@ -73,8 +74,8 @@ function HomePage() {
 								</h3>
 							</div>
 							<p className='pt-2 InterLight text-white w-full lg:w-9/12 text-lg'>
-								Get your groceries delivered to your doorstep and enjoy the
-								convenience of online grocery shopping.{' '}
+								Get your groceries delivered to your doorstep and enjoy the convenience of online
+								grocery shopping.{' '}
 							</p>
 							<hr className='w-full lg:w-10/12 mt-5 border-[#1C1A1A]/25' />
 						</div>
@@ -103,10 +104,9 @@ function HomePage() {
 							Coming soon
 						</h3>
 						<p className='InterLight font-normal text-left text-[#263238] md:text-left mt-3  text-lg md:w-11/12 '>
-							Subscribe to our waitlist and get more information about our app
-							and when it will be available. You will also be the first to know
-							when we launch in your area and get exclusive offers and discounts
-							on your first order. Hoping to see you soon!
+							Subscribe to our waitlist and get more information about our app and when it will be
+							available. You will also be the first to know when we launch in your area and get
+							exclusive offers and discounts on your first order. Hoping to see you soon!
 						</p>
 					</div>
 					<div className='w-full h-[600px] lg:h-full  md:flex items-center justify-center relative overflow-hidden'>
@@ -135,17 +135,15 @@ function HomePage() {
 					</p>
 					<button
 						onClick={() =>
-							Router.push('https://6qnu0zx477s.typeform.com/c/yqmp7o0D')
+							// Router.push('https://6qnu0zx477s.typeform.com/c/yqmp7o0D')
+							console.log('clicked')
 						}
 						className='px-16 mt-10 py-5 bg-white text-xl rounded-xl text-[#009773] InterMedium tracking-widest'
 					>
 						Join Waitlist
 					</button>
 				</div>
-				<div
-					id='contact'
-					className='w-full py-5 my-4  grid lg:grid-cols-3  px-5'
-				>
+				<div id='contact' className='w-full py-5 my-4  grid lg:grid-cols-3  px-5'>
 					<div className='flex flex-col items-center'>
 						<div>
 							<p className='text-[#1C1A1A] text-center lg:text-left InterLight '>
@@ -174,26 +172,14 @@ function HomePage() {
 										href='https://www.instagram.com/invites/contact/?i=f6cmkssdiek3&utm_content=pp75i1d'
 										target='_blank'
 									>
-										<Image
-											src={'/images/instagram.svg'}
-											layout='fill'
-											objectFit='contain'
-										/>
+										<Image src={'/images/instagram.svg'} layout='fill' objectFit='contain' />
 									</a>
 								</div>
 								<div className='w-[25px] h-[25px] md:mx-7 mx-10 relative overflow-hidden flex justify-center items-center'>
-									<Image
-										src={'/images/linkedin.svg'}
-										layout='fill'
-										objectFit='contain'
-									/>
+									<Image src={'/images/linkedin.svg'} layout='fill' objectFit='contain' />
 								</div>
 								<div className='w-[25px] h-[25px]  relative overflow-hidden flex justify-center items-center'>
-									<Image
-										src={'/images/facebook.svg'}
-										layout='fill'
-										objectFit='contain'
-									/>
+									<Image src={'/images/facebook.svg'} layout='fill' objectFit='contain' />
 								</div>
 							</div>
 						</div>
@@ -201,9 +187,9 @@ function HomePage() {
 				</div>
 			</div>
 		</div>
-	);
+	)
 }
 
-export default HomePage;
+export default HomePage
 
 // bmireku@axxendcorp.com
