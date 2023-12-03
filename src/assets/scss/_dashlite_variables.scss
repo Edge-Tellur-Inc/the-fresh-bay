@@ -44,7 +44,7 @@ $base-500:  		#526484;
 
 $base-color:  		#364a63;
 $base-dark:  		#01ab36;
-$base-dark-color: #1e745cde;
+$base-dark-color: #005B00;
 $base-text:  		$base-400;
 $base-light:  		$base-300;
 $base-dim:  		mix($base-color,$white, 8%);
@@ -165,9 +165,9 @@ $stretch-gap-x:          (4px + math.div($gutter-width,2));
 /////////    TYPTOGRAPHY    //////////
 //////////////////////////////////////
 
-$base-font-family: 		Roboto, sans-serif;
+$base-font-family: 		Poppins, sans-serif;
 $base-line-height:		1.65;
-$alt-font-family: 		Nunito, sans-serif;
+$alt-font-family: 		Poppins, sans-serif;
 
 $lg-base:				$base-line-height;
 $lh-rg:					$base-line-height;
