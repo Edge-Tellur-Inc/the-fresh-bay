@@ -43,7 +43,7 @@ const TeamOne = props => {
 								<img src={teamImg3} alt='' />
 							</div>
 							<div className='team-info'>
-								<h6 className='team-name'>John Clever Anyormisi</h6>
+								<h6 className='team-name'>Clever Anyormisi</h6>
 								<div className='team-role'>CEO</div>
 								<SocialIcon className='social-primary' data={TeamDataOne} />
 							</div>
