@@ -479,8 +479,8 @@ const BannerFiveData = [
 		to: '#product',
 	},
 	{
-		text: 'Team',
-		to: '#team',
+		text: 'FAQs',
+		to: '#faqs',
 	},
 	// {
 	//     text:'Reviews',
