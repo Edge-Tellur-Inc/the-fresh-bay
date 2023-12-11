@@ -24,7 +24,7 @@ const IndexFive = props => {
 			<FeatureFiveAlt className='section-feature bg-dark is-dark' />
 			{/* <CtaFive className='section-cta is-dark has-bg-image' id='#cta' /> */}
 			{/* <PricingFour className='pb-0' id='#package' /> */}
-			<TeamOne className='section-team ' id='#team' />
+			{/* <TeamOne className='section-team ' id='#team' /> */}
 			{/* <ReviewThree className='section-reviews' id='#reviews' /> */}
 			<FaqOne className='section-faq' id='#faqs' />
 
