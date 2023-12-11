@@ -27,7 +27,7 @@ const FooterOne = props => {
 				<Row className='g-3 align-items-center justify-content-center justify-content-md-between py-4'>
 					<Col md='8' className='d-flex justify-content-md-start justify-content-center'>
 						<div className='text-base text-center px-5'>
-							Copyright &copy; 2023 EdgeTellur. All rights reserved. Built with{' '}
+							 &copy; 2023. All rights reserved. Built with{' '}
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
 								width='20'
