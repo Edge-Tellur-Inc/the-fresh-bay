@@ -86,37 +86,24 @@ const BannerFive = props => {
 					</HeaderWrap>
 				</Container>
 			</HeaderMain>
-			<HeaderContent className='my-auto py-5 is-dark'>
-				<Container>
-					<Row className='flex-lg-row-reverse align-items-center justify-content-between g-gs'>
-						<Col lg='12' md='10'>
-							<HeaderCaption className='flex flex-column align-items-center text-center justify-content-center'>
-								<HeaderTitle>Premium Groceries at Your Doorsteps</HeaderTitle>
-								<HeaderText>
-									<p className={`${mobileView ? 'py-5' : ''}`}>
-										A marketplace based application focused on revolutionizing grocery shopping by
-										addressing key challenges in the agricultural sector, specifically in groceries
-										production and distribution. We aim to provide affordable and convenient grocery
-										shopping experiences, making fresh produce accessible to consumers while
-										supporting local farmers.
-									</p>
-								</HeaderText>
-								<ul className='header-action btns-inline'>
-									<li>
-										<ScrollLink
-											to='#waitlist'
-											smooth={true}
-											duration={500}
-											className='btn btn-primary btn-lg'
-										>
-											Join Our Waitlist
-										</ScrollLink>
-									</li>
-								</ul>
-							</HeaderCaption>
-						</Col>
-					</Row>
-				</Container>
+			<HeaderContent className=' py-5 is-dark'>
+				<div className='lg:ml-10 ml-5  md:w-7/12 py-32'>
+					<h1 className='text-4xl md:text-7xl lg:text-8xl font-semibold'>
+						Premium Groceries at your Doorstep
+					</h1>
+					<p className='mt-5 text-white text-xl max-w-3xl'>
+						We aim to provide affordable and convenient grocery shopping experiences, making fresh
+						produce accessible to consumers while supporting local farmers.
+					</p>
+						<ScrollLink
+							to='#waitlist'
+							smooth={true}
+							duration={500}
+							className='btn btn-primary btn-lg mt-3'
+						>
+							Join Our Waitlist
+						</ScrollLink>
+				</div>
 			</HeaderContent>
 			<BgImage className='bg-image bg-overlay after-bg-dark after-opacity-10 overlay-fall bg-image-loaded bg-image-header-a' />
 		</Header>

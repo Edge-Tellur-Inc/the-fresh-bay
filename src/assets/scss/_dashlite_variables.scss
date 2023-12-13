@@ -10,7 +10,7 @@ $black: 	#000;
 $light-100: #ebeef2; 
 $light-200: #e5e9f2; 
 $light-300: #dbdfea; 
-$light-400: #b7c2d0; 
+$light-400: #fff; 
 $light-500: #8091a7; 
 $light-600: #3c4d62;
 $light-700: #344357;
@@ -44,7 +44,7 @@ $base-500:  		#526484;
 
 $base-color:  		#364a63;
 $base-dark:  		#01ab36;
-$base-dark-color:   rgba(1, 95, 31, 0.8);
+$base-dark-color:    #01ab36;
 $base-text:  		$base-400;
 $base-light:  		$base-300;
 $base-dim:  		mix($base-color,$white, 8%);
