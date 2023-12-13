@@ -107,7 +107,7 @@ const BannerFive = (props) => {
             Premium Groceries at your Doorstep
           </h1>
           <p className="mt-3.5 md:mt-5 text-white text-lg md:text-xl max-w-3xl">
-            Buy groceries without breaking the bank and without a hassle!
+            Buy groceries without breaking the bank and with no hassle!
           </p>
           <ScrollLink
             to="#waitlist"
