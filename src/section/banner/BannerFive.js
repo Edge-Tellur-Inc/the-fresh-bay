@@ -91,7 +91,7 @@ const BannerFive = props => {
 					<h1 className='text-6xl md:text-7xl lg:text-8xl  font-semibold'>
 						Premium Groceries at your Doorstep
 					</h1>
-					<p className='mt-5 text-white text-xl max-w-3xl'>
+					<p className='mt-3 md:mt-5 text-white text-lg md:text-xl max-w-3xl'>
 						We aim to provide affordable and convenient grocery shopping experiences, making fresh
 						produce accessible to consumers while supporting local farmers.
 					</p>
