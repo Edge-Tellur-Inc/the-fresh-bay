@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Section, SectionHead } from "../../layout/section/Section";
 import { Container, Row, Col, Card, Form, Input } from "reactstrap";
-import { Link } from "../../components/button/Button";
-import { BgImage } from "../../layout/ovm/Ovm";
 import { Button } from "../../components/button/Button";
 import axios from "axios";
 
@@ -105,10 +103,7 @@ const CtaOne = (props) => {
                       </Col>
 
                       <Col xs="12">
-                        <Button
-                          //   to={`${process.env.PUBLIC_URL}/`}
-                          className="btn btn-primary text-white"
-                        >
+                        <Button className="btn btn-primary text-white">
                           Join Waitlist
                         </Button>
                       </Col>
