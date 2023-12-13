@@ -88,10 +88,10 @@ const BannerFive = props => {
 			</HeaderMain>
 			<HeaderContent className=' py-5 is-dark'>
 				<div className='lg:ml-10 ml-5  md:w-8/12 lg:w-7/12  pt-10  h-screen md:h-full'>
-					<h1 className='text-6xl md:text-7xl lg:text-8xl  font-semibold'>
+					<h1 className='text-5xl md:text-7xl lg:text-8xl  font-semibold'>
 						Premium Groceries at your Doorstep
 					</h1>
-					<p className='mt-3 md:mt-5 text-white text-lg md:text-xl max-w-3xl'>
+					<p className='mt-3.5 md:mt-5 text-white text-lg md:text-xl max-w-3xl'>
 						We aim to provide affordable and convenient grocery shopping experiences, making fresh
 						produce accessible to consumers while supporting local farmers.
 					</p>
