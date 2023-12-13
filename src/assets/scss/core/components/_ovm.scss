@@ -81,7 +81,12 @@
 }
 .bg-image-header-a{
     background-image: url(../../../images/landing-page.png);
+    //mobile version
+    @media (max-width: 775px){
+        background-image: url(../../../images/landing-page-phone.png);
+    }
 }
+
 .bg-image-cta-a{
     background-image: url(../../../images/b.jpg);
 }
