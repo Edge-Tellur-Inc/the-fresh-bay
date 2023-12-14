@@ -13,12 +13,6 @@ const CtaOne = props => {
 	const [loading, setLoading] = useState(false)
 	const form = useRef()
 
-	const resetFields = () => {
-		setEmail('')
-		setName('')
-		setPhone('')
-	}
-
 	const onSubmit = async e => {
 		e.preventDefault()
 		setLoading(true)
@@ -34,12 +28,16 @@ const CtaOne = props => {
 				phoneNumber: phone,
 			})
 			toast.success(res.data.message)
-			resetFields()
+			setEmail('')
+			setName('')
+			setPhone('')
 			setLoading(false)
 			emailjs.sendForm('service_fb0b41n', 'template_rxxl863', form.current, 'nhGMgqFf9mwvaEKsh')
 		} catch (err) {
 			setLoading(false)
-			resetFields()
+			setEmail('')
+			setName('')
+			setPhone('')
 			toast.error(err.response.data.message || 'User already exist')
 		}
 	}
@@ -75,6 +73,7 @@ const CtaOne = props => {
 															placeholder='Your Name'
 															name='name'
 															onChange={e => setName(e.target.value)}
+															value={name}
 														/>
 													</div>
 												</div>
@@ -92,6 +91,7 @@ const CtaOne = props => {
 															placeholder='Enter Your Email'
 															onChange={e => setEmail(e.target.value)}
 															name='email'
+															value={email}
 															required
 														/>
 													</div>
@@ -109,6 +109,7 @@ const CtaOne = props => {
 															id='phone'
 															placeholder='eg: 0500000000'
 															name='phone'
+															value={phone}
 															onChange={e => setPhone(e.target.value)}
 														/>
 													</div>
