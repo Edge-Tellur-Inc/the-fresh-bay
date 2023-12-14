@@ -12,7 +12,7 @@ import { FeatureFiveAlt } from "../section/feature/FeatureFive";
 import CtaOne from "../section/cta/CtaOne";
 import FaqOne from "../section/faq/FaqOne";
 import FooterOne from "../section/footer/FooterOne";
-
+import { ToastContainer } from 'react-toastify'
 const IndexFive = (props) => {
   return (
     <div className="nk-main">
@@ -34,6 +34,7 @@ const IndexFive = (props) => {
       <CtaOne className="secton-cta bg-lighter" id="#waitlist" />
 
       <FooterOne className="bg-dark is-dark" />
+			<ToastContainer />
     </div>
   );
 };
