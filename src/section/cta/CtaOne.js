@@ -10,7 +10,7 @@ const CtaOne = props => {
 	const [email, setEmail] = useState('')
 	const [name, setName] = useState('')
 	const [phone, setPhone] = useState('')
-
+	const [loading, setLoading] = useState(false)
 	const form = useRef()
 
 	const resetFields = () => {
@@ -21,6 +21,7 @@ const CtaOne = props => {
 
 	const onSubmit = async e => {
 		e.preventDefault()
+		setLoading(true)
 		if (phone.length < 10 || phone.length > 10) {
 			toast.error('Please enter a valid phone number')
 			return
@@ -33,11 +34,12 @@ const CtaOne = props => {
 				phoneNumber: phone,
 			})
 			toast.success(res.data.message)
-
-			emailjs.sendForm('service_fb0b41n', 'template_rxxl863', form.current, 'nhGMgqFf9mwvaEKsh')
-
 			resetFields()
+			setLoading(false)
+			emailjs.sendForm('service_fb0b41n', 'template_rxxl863', form.current, 'nhGMgqFf9mwvaEKsh')
 		} catch (err) {
+			setLoading(false)
+			resetFields()
 			toast.error(err.response.data.message || 'User already exist')
 		}
 	}
@@ -118,7 +120,13 @@ const CtaOne = props => {
 											</Col>
 
 											<Col xs='12'>
-												<Button className='btn btn-primary text-white'>Join Waitlist</Button>
+												<Button className='btn btn-primary text-white'>
+													{loading ? (
+														<div className='animate-spin w-4 h-4 border-t border-l rounded-full' />
+													) : (
+														'Join Waitlist'
+													)}
+												</Button>
 											</Col>
 										</Row>
 									</form>
