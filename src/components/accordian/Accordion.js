@@ -54,7 +54,7 @@ const Accordion = ({ className, variation, ...props }) => {
         >
           <div className="accordion-inner">
             <p>
-              For now delivery may take an hour or two before reaching your
+              For now delivery may take an 45 minutes before reaching your
               preferred destination.
             </p>
           </div>
