@@ -34,9 +34,8 @@ const Accordion = ({ className, variation, ...props }) => {
         >
           <div className="accordion-inner">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              quos, placeat quia beatae, atque repudiandae officia ipsum quam
-              ratione alias dignissimos, illo inventore.
+              We are currently operating in Cape Coast, but we will soon be in
+              Accra and it's neighbourings.
             </p>
           </div>
         </Collapse>
@@ -55,9 +54,8 @@ const Accordion = ({ className, variation, ...props }) => {
         >
           <div className="accordion-inner">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-              vel laudantium obcaecati possimus eaque fugit consectetur! Vitae
-              voluptatibus numquam soluta aspernatur, ab inventore.
+              For now delivery may take an hour or two before reaching your
+              preferred destination.
             </p>
           </div>
         </Collapse>
@@ -75,11 +73,7 @@ const Accordion = ({ className, variation, ...props }) => {
           isOpen={isOpen === "3" ? true : false}
         >
           <div className="accordion-inner">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo,
-              voluptates esse sapiente sunt aliquid sed maxime reprehenderit quo
-              repellendus molestiae incidunt impedit nostrum.
-            </p>
+            <p>Referring a friend helps you earn free deliveries.</p>
           </div>
         </Collapse>
       </div>
@@ -97,32 +91,7 @@ const Accordion = ({ className, variation, ...props }) => {
         >
           <div className="accordion-inner">
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
-              mollitia officia. Praesentium id saepe iste eius molestias iure
-              modi quasi beatae minus rerum.
-            </p>
-          </div>
-        </Collapse>
-      </div>
-      <div className="accordion-item">
-        <div
-          className={[`accordion-head${isOpen !== "5" ? " collapsed" : ""}`]}
-          onClick={() => toggleCollapse("5")}
-        >
-          <h6 className="title">
-            Lorem, ipsum dolor sit amet consectetur adipisicing.?
-          </h6>
-          <span className="accordion-icon"></span>
-        </div>
-        <Collapse
-          className="accordion-body"
-          isOpen={isOpen === "5" ? true : false}
-        >
-          <div className="accordion-inner">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
-              placeat inventore enim laborum iusto. Atque assumenda rerum cum
-              qui quaerat ducimus minima voluptatum?
+              Order tracking has been carefully crafted into the application.
             </p>
           </div>
         </Collapse>

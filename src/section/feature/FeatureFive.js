@@ -107,7 +107,7 @@ const FeatureFiveAlt = (props) => {
                   <Card className="card-shadow service is-compact">
                     <div className="card-inner">
                       <StyledIcon className="service-icon styled-icon-s4 styled-icon-6x circle text-primary">
-                        <ColorPlate />
+                        <ToolsAlt />
                       </StyledIcon>
                       <ServiceText>
                         <span className="title fs-14px">Educative</span>
@@ -119,7 +119,7 @@ const FeatureFiveAlt = (props) => {
                   <Card className="card-shadow service is-compact">
                     <div className="card-inner">
                       <StyledIcon className="service-icon styled-icon-s4 styled-icon-6x circle text-primary">
-                        <CodeDisplay />
+                        <ColorPlate />
                       </StyledIcon>
                       <ServiceText>
                         <span className="title  fs-14px">Fresh Produce</span>
@@ -131,7 +131,7 @@ const FeatureFiveAlt = (props) => {
                   <Card className="card-shadow service is-compact">
                     <div className="card-inner">
                       <StyledIcon className="service-icon styled-icon-s4 styled-icon-6x circle text-primary">
-                        <ToolsAlt />
+                        <CodeDisplay />
                       </StyledIcon>
                       <ServiceText>
                         <span className="title  fs-14px">Intuitive UI</span>
